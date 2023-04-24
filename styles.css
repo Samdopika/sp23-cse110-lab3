@@ -1,0 +1,134 @@
+/* Color */
+header {
+    color: white;
+}
+
+h2 {
+    color: #13253c;
+}
+
+section {
+    color: #1a73e8;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #1a73e8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 5px; 
+}
+h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+}
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section {
+    border: 5px solid #1a73e8;
+    border-radius: 10px;
+}
+p {
+    color: #333333;
+    text-decoration: none;
+    text-align: justify;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    position: relative;
+}
+section:hover {
+    background-color: rgba(26, 115, 232, 0.1);
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+@media screen and (max-width: 768px) {
+    section {
+        display: block;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.example-class {
+    color: red;
+}
+
+
+#example-id {
+    color: blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img[alt="Whiteboard Diagram"] {
+    border: 2px solid #1a73e8;
+}
+
+p:hover {
+    color: #1a73e8;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+section p {
+    margin-left: 10px;
+}
+
+section > h2 {
+    margin-left: 10px;
+}
+
+h2 ~ p {
+    font-weight: bold;
+}
+
+h2 + p {
+    font-style: italic;
+}
+    
+section.example-class {
+    background-color: lightgray;
+}
